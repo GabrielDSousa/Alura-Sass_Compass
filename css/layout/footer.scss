@@ -75,7 +75,7 @@ footer a {
   display: block;
   width: 55px;
   height: 55px;
-  @include image-replacement;
+  @extend %image-replacement;
   overflow: hidden;
   background-repeat: no-repeat;
   margin-left: 1em;
