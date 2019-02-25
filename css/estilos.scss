@@ -1,3 +1,8 @@
+$sprites-spacing: 1px;
+
+@import 'sprites/*.png';
+@include all-sprites-sprites;
+
 @import 'base/normalize';
 
 @import 'helpers/variaveis';
