@@ -7,6 +7,8 @@
 form {
   margin: 0 auto;
   width: 50%;
+
+  @extend %media-querie-width-auto;
 }
 
 .contato input,
